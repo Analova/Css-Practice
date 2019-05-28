@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background: white;
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+
+
+.logo {
+ width:30%;
+font-size:1.3rem;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+
+.middle-menu {
+   
+}
+
+.middle-menu ul {
+    display:flex;
+    width:60%;
+    color:black;
+  
+}
+
+.middle-menu ul li {
+     margin-right:50px;
+    list-style: none;
+    color:black;
+}
+
+.middle-menu ul li a {
+   text-decoration: none;
+}
+
+.middle-menu ul li a.first {
+    background: #1BADC6;
+    padding: 40px;
+    color: white;
+}
+
+.middle-menu ul li a.last {
+    background: #1BADC6;
+    padding: 6px 20px;
+    color: white;
+}
+
+
+.right-menu {
+    display: inline-block;
+    float: right;
+    padding: 10px 0;
+    width: 20%;
+}
+
+
+
+.right-menu ul li {
+    display: inline-block;
+    margin-right: 5px;
+
+}
+
+.right-menu ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+
+.icon {
+    position: relative;
+    top: 10px;
+    display: inline-block;
+    position: relative;
+    background: #1BADC6;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.fas {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    color: white;
+    font-size: 15px;
+
+}
+
+
+#bgImage {
+    position: relative;
+    background: rgba(191, 110, 78, 0.1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(37, 39, 52, 0.9) 0%, rgba(0, 1, 17, 1) 99%, rgba(37, 39, 78, 1) 100%), url("https://kreuzfahrt-zeitung.de/wp-content/uploads/2016/08/kreuzfahrthafen-new-york.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#bgImage .container {
+    position: absolute;
+    top: 100px;
+    width: 50%;
+  
+}
+
+#bgImage .container h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#bgImage .container p {
+    color: white;
+    margin-bottom: 40px;
+
+}
+
+#bgImage .container .main-btn {
+    text-align: center;
+    padding: 20px;
+    background: #12A4CD;
+    width: 30%;
+    margin: 0 auto;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 15px;
+    cursor: pointer
+}
+
+#bgImage .circle {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    float: right;
+    margin-right: 5px
+}
+
+#bgImage .circles {
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    bottom: -250px;
+    min-width: 200px;
+
+}
+
+#bgImage .circles .color {
+    background: #12A4CD;
+
+}
+
+#iconSection {
+    padding: 0 100px;
+}
+
+.icons {
+   display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+
+}
+
+.iconBox {
+ 
+    text-align: center;
+    background: #12A4CD;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.iconBox:last-child {
+    margin-right: 0;
+}
+
+#iconSection .icons .iconBox .far {
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 34px;
+    left: 40px;
+}
+
+#iconSection .icons .iconBox .fas {
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 34px;
+    left: 10px;
+}
+
+.boxContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.smallBox {
+    position: relative;
+    top: -15px;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    background: #33839a;
+    width: 200px;
+    padding: 5px 0;
+
+}
